@@ -268,19 +268,6 @@
 
 	var/spawn_branches = GLOB.mil_branches.spawn_branches(S)
 	for(var/branch_type in allowed_branches)
-<<<<<<< HEAD
-		var/datum/mil_branch/branch = mil_branches.get_branch_by_type(branch_type)
-		if(branch)
-			if(branch.name in spawn_branches)
-				if(!allowed_ranks || !(GLOB.using_map.flags & MAP_HAS_RANK))
-					LAZYADD(., branch.name)
-					continue // Screw this rank stuff, we're good.
-				var/spawn_ranks = branch.spawn_ranks(S)
-				for(var/rank_type in allowed_ranks)
-					var/datum/mil_rank/rank = rank_type
-					if(initial(rank.name) in spawn_ranks)
-						LAZYADD(.[branch.name], initial(rank.name))
-=======
 		var/datum/mil_branch/branch = GLOB.mil_branches.get_branch_by_type(branch_type)
 		if(branch.name in spawn_branches)
 			if(!allowed_ranks || !(GLOB.using_map.flags & MAP_HAS_RANK))
@@ -291,7 +278,6 @@
 				var/datum/mil_rank/rank = rank_type
 				if(initial(rank.name) in spawn_ranks)
 					LAZYADD(.[branch.name], initial(rank.name))
->>>>>>> baystation/dev
 
 /**
  *  Check if members of the given branch are allowed in the job

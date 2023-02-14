@@ -82,12 +82,8 @@
 #define COLOR_ASTEROID_ROCK    "#735555"
 #define COLOR_NULLGLASS        "#ff6088"
 #define COLOR_DIAMOND          "#d8d4ea"
-<<<<<<< HEAD
 #define COLOR_SFP_BLUE 		   "#2c425f"	//Elysium
-=======
 #define COLOR_VOX			   "#244238"
-
->>>>>>> baystation/dev
 
 #define	PIPE_COLOR_GREY        "#808080"
 #define	PIPE_COLOR_RED         "#ff0000"

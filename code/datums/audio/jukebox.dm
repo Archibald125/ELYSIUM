@@ -190,7 +190,7 @@ GLOBAL_LIST_INIT(jukebox_tracks, list(
 	/singleton/audio/track/treacherous_voyage,
 	/singleton/audio/track/voidsent,
 	/singleton/audio/track/wake,
-	/singleton/audio/track/wildencounters
+	/singleton/audio/track/wildencounters,
 
 	//arc music from here,
 	/decl/audio/track/bensound_relaxing,

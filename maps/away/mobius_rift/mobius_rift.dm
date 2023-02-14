@@ -109,9 +109,5 @@
 		var/obj/effect/step_trigger/mobius_rift/seamless_portal/P = portals[portals[iter]]
 		P.set_destination(destinations[iter])
 
-<<<<<<< HEAD
-/obj/effect/mobius_rift/chamber/proc/get_portal(var/towards)
-=======
 /obj/effect/mobius_rift/chamber/proc/get_portal(towards)
->>>>>>> baystation/dev
 	return portals[towards]
